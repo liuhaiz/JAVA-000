@@ -4,23 +4,26 @@
 ----------------------
 串行 GC
 
-  ```java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:serial.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
+ ```java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:serial.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
   
-  [串行GC日志](https://github.com/liuhaiz/JAVA-000/blob/main/Week_02/log/serial.gc.demo.log "串行GC日志")
+   [串行GC日志](https://github.com/liuhaiz/JAVA-000/blob/main/Week_02/log/serial.gc.demo.log "串行GC日志")
 
 并行GC
 
   ```java -XX:+UseParallelGC -Xms512m -Xmx512m -Xloggc:paralle.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
+  
    [并行GC日志](https://github.com/liuhaiz/JAVA-000/blob/main/Week_02/log/paralle.gc.demo.log "并行GC日志")
    
 CMS GC
 
   ```java -XX:+UseConcMarkSweepGC -Xms512m -Xmx512m -Xloggc:cms.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
+  
    [CMS GC日志](https://github.com/liuhaiz/JAVA-000/blob/main/Week_02/log/cms.gc.demo.log "CMS GC日志")
    
 G1 GC
 
   ```java -XX:+UseG1GC -Xms512m -Xmx512m -Xloggc:g1.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
+  
    [G1 GC日志](https://github.com/liuhaiz/JAVA-000/blob/main/Week_02/log/g1.gc.demo.log "G1 GC日志")
    
 

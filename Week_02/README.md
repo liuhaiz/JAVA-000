@@ -2,9 +2,10 @@
 ===============
 1、使用 GCLogAnalysis.java 自己演练一遍串行/并行/CMS/G1的案例。
 ----------------------
+
 * 串行 GC
 
- ```java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:serial.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
+  ```java -XX:+UseSerialGC -Xms512m -Xmx512m -Xloggc:serial.gc.demo.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps GCLogAnalysis```
   
    [串行GC日志](https://github.com/liuhaiz/JAVA-000/blob/main/Week_02/log/serial.gc.demo.log "串行GC日志")
 

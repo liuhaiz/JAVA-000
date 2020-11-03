@@ -10,13 +10,13 @@ import io.netty.handler.codec.http.HttpHeaders;
  * @date 2020/11/3
  */
 public class HttpRequestFilterHandler implements HttpRequestFilter  {
-	public final static String SOME_PARAM = "SOMEPARAM";
+	public final static String SOME_PARAM = "nio";
 
 	@Override
 	public void filter(FullHttpRequest fullRequest, ChannelHandlerContext ctx) {
 		if(null != fullRequest && null!= fullRequest.headers()){
 			HttpHeaders httpHeaders = fullRequest.headers();
-			httpHeaders.set(SOME_PARAM, "something");
+			httpHeaders.set(SOME_PARAM, "liuhaizhong");
 		}
 	}
 }
